@@ -21,8 +21,13 @@ section {
     height: 250px;
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
+.location-container{
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
 .contact-container {
     width: 100vh;
     display: flex;
@@ -44,6 +49,9 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.socialItems img {
+    object-fit: cover;
 }
 .intro {
     display: flex;
