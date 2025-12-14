@@ -1,0 +1,46 @@
+section {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* ensures overlay stays inside */
+    padding: 2rem;
+}
+
+/* Light Mode */
+section.light {
+    background-color: #FAFAF8;
+    background-image: radial-gradient(circle at 1px 1px, black 1px, transparent 0);
+    background-size: 20px 20px;
+    color: #111;
+
+  /* Fade toward edges using mask */
+    -webkit-mask-image: radial-gradient(circle, rgba(0,0,0,1) 80%, rgba(0,0,0,0) 100%);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    -webkit-mask-size: cover;
+    mask-image: radial-gradient(circle, rgba(0,0,0,1) 80%, rgba(0,0,0,0) 100%);
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size: cover;
+}
+
+/* Dark Mode */
+section.dark {
+    background-color: #0d2a58;
+    background-image: radial-gradient(circle at 1px 1px, #FAFAF8 1px, transparent 0);
+    background-size: 20px 20px;
+    color: #FAFAF8;
+
+  /* Fade toward edges using mask */
+    -webkit-mask-image: radial-gradient(circle, rgba(0,0,0,1) 100%, rgba(0,0,0,0) 100%);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    -webkit-mask-size: cover;
+    mask-image: radial-gradient(circle, rgba(0,0,0,1) 100%, rgba(0,0,0,0) 100%);
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size: cover;
+}
