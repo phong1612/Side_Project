@@ -30,7 +30,6 @@ export default function Header(props) {
                 <h3><button value="about me" onClick={setButtonContent}>About me</button></h3>
                 <h3><button value="skills" onClick={setButtonContent}>Skills</button></h3>
                 <h3><button value="experience" onClick={setButtonContent}>Experience</button></h3>
-                <h3><button value="education" onClick={setButtonContent}>Education</button></h3>
                 <h3><button value="project" onClick={setButtonContent}>Project</button></h3>
                 <h3><button value="resume" onClick={setButtonContent}>Resume</button></h3>
             </div>

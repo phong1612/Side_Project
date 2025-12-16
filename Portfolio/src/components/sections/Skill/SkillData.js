@@ -1,13 +1,13 @@
 export default [
     {
         id: 1,
-        name: "React",
-        efficiency: 80
+        name: "Java",
+        efficiency: 85
     },
     {
         id: 2,
-        name: "HTML",
-        efficiency: 95
+        name: "Front End Development",
+        efficiency: 90
     },
     {
         id: 3,
@@ -26,7 +26,7 @@ export default [
     },
     {
         id: 6,
-        name: "Git",
+        name: "Git/GitHub",
         efficiency: 85
     },
     {
@@ -36,8 +36,8 @@ export default [
     },
     {
         id: 8,
-        name: "MongoDB",
-        efficiency: 70
+        name: "Algorithms",
+        efficiency: 80
     },
     {
         id: 9,
@@ -46,12 +46,12 @@ export default [
     },
     {
         id: 10,
-        name: "AWS",
+        name: "Amazon AWS",
         efficiency: 85
     },
     {
         id: 11,
-        name: "SpringBoot",
-        efficiency: 75
+        name: "API Development",
+        efficiency: 80
     },
 ]

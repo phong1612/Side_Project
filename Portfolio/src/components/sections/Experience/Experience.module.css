@@ -8,8 +8,9 @@ section {
     display: flex;
     justify-content: space-around;
     margin-bottom: 20px;
-    width: 50%;
-    
+    width: 60%;
+    max-width: 750px;
+    min-width: 500px;
 }
 .img-container {
     width: 20%;

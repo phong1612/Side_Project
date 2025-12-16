@@ -1,7 +1,6 @@
 import AboutMe from './sections/AboutMe/AboutMe'
-import Education from './sections/Education'
 import Skill from './sections/Skill/Skill'
-import Project from './sections/Project'
+import Project from './sections/Project/Project'
 import Experience from './sections/Experience/Experience'
 import Resume from './sections/Resume/Resume'
 import styles from './MainContent.module.css'
@@ -19,8 +18,6 @@ export default function MainContent(props) {
         case "experience":
             ContentDisplay = <Experience />
             break
-        case "education":
-            ContentDisplay = <Education />
             break
         case "project":
             ContentDisplay = <Project />
